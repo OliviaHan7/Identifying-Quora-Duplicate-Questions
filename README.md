@@ -21,14 +21,14 @@ The labeled dataset can be downloaded from [here](https://drive.google.com/file/
 ## Exploratory Data Analysis
 
 ### Overview of the dataset
-![Image](Picture1.png)
+![Image](pic1.jpeg)
 * There are about 480,000 questions and 68% questions appears only once.13% appear multiple times.
 * This is also an Imbalanced Dataset: There is 63% question pairs are not duplicate.
 * 80:20 split on training and testing dataset.
 
 ### Characters and Words 
 
-![Image](Picture2.png)
+![Image](pic2.jpeg)
 
 * Characters count vary mostly from 25 to 80.
 * Most questions have 58 characters. 
@@ -41,4 +41,4 @@ The labeled dataset can be downloaded from [here](https://drive.google.com/file/
 * XGBoost Classifier with tf-idf ;
  87% accuracy score and 88.4% recall
 
-![Image](Picture3.png)
+![Image](pic3.jpeg)
